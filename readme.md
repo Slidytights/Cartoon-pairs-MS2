@@ -20,13 +20,13 @@ The site is designed to be fun with players wanting to make it onto the score bo
 
 ### UX
 
-- New players want to feel positive when they see the site.
-- Players want an easy to navigate experience.
-- Players want to easily understand hoe the game works.
-- Players will want to return and play again and again.
-- All players want a visually pleasing game and site.
-- All players want uplifting music to make the game feel positive.
-- Players will think back to their experience and feel good inside.
+1. New players want to feel positive when they see the site.
+2. Players want an easy to navigate experience.
+3. Players want to easily understand how the game works.
+4. Players will want to return and play again and again.
+5. All players want a visually pleasing game and site.
+6. All players want uplifting music to make the game feel positive.
+7. Players will think back to their experience and feel good inside.
 
 ## The game will achieve this by:
 
@@ -39,12 +39,60 @@ The site is designed to be fun with players wanting to make it onto the score bo
 ### Wireframe mock-ups:
 
 [Desktop home screen](documentation/wireframes/desktop-home-screen.png)
+
 [Desktop game screen](documentation/wireframes/desktop-game-screen.png)
+
 [Desktop score screen](documentation/wireframes/desktop-score-screen.png)
+
 [Mobile home screen](documentation/wireframes/mobile-home-screen.png)
+
 [Mobile game screen](documentation/wireframes/mobile-game-screen.png)
+
 [Mobile score screen](documentation/wireframes/mobile-score-screen.png)
+
 [Tablet home screen](documentation/wireframes/tablet-home-screen.png)
+
 [Tablet game screen](documentation/wireframes/tablet-game-screen.png)
+
 [Tablet score screen](documentation/wireframes/tablet-score-screen.png)
+
+### Game Feaures
+
+#### Mobile first design:
+
+- Nav bar that expands at top to select pages.
+- Hero image.
+- Link to play the game.
+- Rules of the game.
+- Pictures of some of the game cards in a funky design.
+- The top player on the leader board.
+- Footer with links to social media.
+
+#### Home page:
+
+- Nav bar with page links.
+- Hero image.
+- Big play Now button.
+- Game cards in a fun art design showing some cards used in the game.
+- Rules of the game.
+- The name of the player on top of the leader board.
+- Footer with links to social sites and copyright.
+
+#### Game page:
+
+- Nav bar at top of the screen.
+- Large butoon saying Start Game.
+- The memory card game grid.
+- Timer below game grid.
+- Footer at bottom of screen with links and copyright.
+
+#### Leader board page:
+
+- Nav bar with page links.
+- Hero image.
+- Leader board showing top 10 players with fastest time.
+- A sign up button with name and email input.
+- Footer with social links and copyright.
+
+
 
