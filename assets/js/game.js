@@ -38,6 +38,8 @@ function doesItMatch () {
 function freezeCards () {
         card1.removeEventListener("click", turnCard);
         card2.removeEventListener("click", turnCard);
+
+        boardHold();
 }
 
 function resetCards() {
@@ -48,10 +50,25 @@ function resetCards() {
         card1.classList.remove("turn");
         card2.classList.remove("turn");
 
-        holdCard = false;    
+        boardHold();    
 
     },  1500);
 }
+
+function boardHold () {
+
+    cardTurned = false;
+    holdCard = false;
+    card1 = null;
+    card2 = null;
+}
+
+(function mixCards () {
+    cards.forEach (card => {
+        let mixUp = Math.floor(Math.random() * 36);
+        card.style.order = mixUp;
+    });
+})();
 
 
 
