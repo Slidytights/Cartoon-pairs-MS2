@@ -1,12 +1,16 @@
 const cards = document.querySelectorAll(".game-card");
 
 let cardTurned = false;
+
 let holdCard = false;
+
 let card1, card2;
 
 function turnCard() {
 
     if (holdCard) return;
+
+    if (this === card1) return;
 
     this.classList.add("turn");
 
@@ -46,7 +50,9 @@ function resetCards() {
 
         holdCard = false;    
 
-    },  3500);
+    },  1500);
 }
+
+
 
 cards.forEach(card => card.addEventListener("click", turnCard));
