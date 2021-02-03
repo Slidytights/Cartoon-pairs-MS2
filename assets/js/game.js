@@ -44,7 +44,7 @@ function resetCards() {
         card1.classList.remove("turn");
         card2.classList.remove("turn");
 
-        holdCard = false;   
+        holdCard = false;    
 
     },  3500);
 }
